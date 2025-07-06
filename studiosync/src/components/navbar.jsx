@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
@@ -11,7 +12,7 @@ const Navbar = () => {
       <div className="hidden md:flex gap-20 font-medium text-[1.15rem]">
         <a href="#features" className="hover:text-[#7A30D4] transition">Features</a>
         <a href="#pricing" className="hover:text-[#7A30D4] transition">Pricing</a>
-        <a href="#" className="hover:text-[#7A30D4] transition">About</a>
+        <Link to="/about" className="hover:text-[#7A30D4] transition">About</Link>
       </div>
       <div className="hidden md:flex items-center gap-9">
         <a href="#" className="hover:text-[#7A30D4] transition text-[1.15rem]">Login</a>

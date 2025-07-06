@@ -31,7 +31,7 @@ const Footer = () => {
     <footer className="py-20 bg-[#120723] text-white">
       <div className="flex flex-col justify-center items-center mb-10">
         <h2 className="font-recoleta font-bold text-4xl mb-4">Get started with StudioSync now</h2>
-        <button className="bg-[#7A30D4] px-6 py-2 text-white cursor-pointer hover:bg-white hover:text-black rounded-full">Sign up for free</button>
+        <button className="bg-[#7A30D4] px-6 py-2 text-white mb-4 cursor-pointer hover:bg-white hover:text-black rounded-full">Sign up for free</button>
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-40">
         <div className="flex flex-col">
