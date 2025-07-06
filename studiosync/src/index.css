@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Florisha;
+  src: url('./src/assets/fonts/Florisha.otf') format('opentype');
+}
+@font-face {
+  font-family: Recoleta;
+  src: url('./src/assets/fonts/Recoleta.otf') format('opentype');
+}
+@import "tailwindcss";
+@theme{
+  --font-florisha : Florisha, 'sans-serif';
+  --font-recoleta : Recoleta, 'sans-serif';
+}
+html{
+  scroll-behavior: smooth;
+}
