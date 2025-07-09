@@ -12,10 +12,10 @@ const Navbar = () => {
       <div className="hidden md:flex gap-20 font-medium text-[1.15rem]">
         <a href="#features" className="hover:text-[#7A30D4] transition">Features</a>
         <a href="#pricing" className="hover:text-[#7A30D4] transition">Pricing</a>
-        <Link to="/about" className="hover:text-[#7A30D4] transition">About</Link>
+        <Link to="" className="hover:text-[#7A30D4] transition">About</Link>
       </div>
       <div className="hidden md:flex items-center gap-9">
-        <a href="#" className="hover:text-[#7A30D4] transition text-[1.15rem]">Login</a>
+        <a href="/login" className="hover:text-[#7A30D4] transition text-[1.15rem]">Login</a>
         <button className="border border-white text-white text-[1.15rem] px-7 py-2 rounded-full hover:bg-[#7A30D4] hover:border-transparent transition duration-200 ease-in-out cursor-pointer">Sign up for free</button>
       </div>
       <div className="md:hidden flex items-center">
